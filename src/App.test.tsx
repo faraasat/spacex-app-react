@@ -1,9 +1,14 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { shallow } from "enzyme";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App Component", () => {
+  const shallowRender = shallow(<App />);
+
+  it("should match snapshot", () => {
+    expect(shallowRender.debug()).toMatchSnapshot();
+  });
+
+  it("should have at least on dive", () => {
+    expect(shallowRender.find("div").length).toBeGreaterThanOrEqual(1);
+  });
 });

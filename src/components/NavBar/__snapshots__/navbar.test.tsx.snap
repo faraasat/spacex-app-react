@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should match snapshot 1`] = `
+"<WithStyles(ForwardRef(AppBar)) position=\\"static\\" style={{...}}>
+  <WithStyles(ForwardRef(Toolbar))>
+    <WithStyles(ForwardRef(IconButton)) edge=\\"start\\" className=\\"makeStyles-menuButton-1\\" color=\\"inherit\\" aria-label=\\"menu\\">
+      SpaceX App
+    </WithStyles(ForwardRef(IconButton))>
+    <Link to=\\"/\\" style={{...}}>
+      <WithStyles(ForwardRef(Typography)) style={{...}} variant=\\"h6\\">
+        Home
+      </WithStyles(ForwardRef(Typography))>
+    </Link>
+    <Link to=\\"/explore\\" style={{...}}>
+      <WithStyles(ForwardRef(Typography)) style={{...}} variant=\\"h6\\">
+        Explore
+      </WithStyles(ForwardRef(Typography))>
+    </Link>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>"
+`;

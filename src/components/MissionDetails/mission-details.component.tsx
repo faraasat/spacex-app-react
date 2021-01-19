@@ -117,8 +117,14 @@ const MissionDetails: React.FC<IMissionDetails> = ({ id }) => {
             )}
           </span>
           <div>
-            {flickr_images.map((fli_img) => {
-              return <img src={fli_img!} alt={data!.launch?.mission_name!} />;
+            {flickr_images.map((fli_img, index) => {
+              return (
+                <img
+                  key={index}
+                  src={fli_img!}
+                  alt={data!.launch?.mission_name!}
+                />
+              );
             })}
           </div>
         </div>
