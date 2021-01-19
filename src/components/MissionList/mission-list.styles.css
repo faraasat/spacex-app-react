@@ -1,0 +1,29 @@
+.tab_tooltip__head {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(0, 119, 255);
+}
+
+.mission-list__loading {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-list__error {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 1.888vw;
+    font-weight: bold;
+}
+
+.mission-list__error p {
+    color: teal;
+    font-size: 1.627vw;
+}

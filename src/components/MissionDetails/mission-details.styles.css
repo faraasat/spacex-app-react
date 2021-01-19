@@ -1,0 +1,150 @@
+.mission-details__loading {
+  width: calc(100vw - 400px);
+  height: calc(100vh - 112px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-details__error {
+  width: calc(100vw - 400px);
+  height: calc(100vh - 104px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 1.888vw;
+  font-weight: bold;
+}
+
+.mission-details__error p {
+  color: teal;
+  font-size: 1.627vw;
+}
+
+.mission-details__alignment {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mission-details__basic h1:nth-child(1) {
+  color: rgb(0, 132, 255);
+}
+
+.mission-details__basic div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mission-details__basic div span:first-child {
+  color: gray;
+  font-weight: bold;
+}
+
+.mission-details__basic div span:nth-child(2) {
+  color: rgb(9, 255, 0);
+  font-weight: bold;
+}
+
+.mission-details__basic div span:nth-child(3) {
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+}
+
+.mission-details__basic div span:nth-child(4) {
+  color: rgb(247, 0, 255);
+  font-weight: bold;
+}
+
+.mission-details__details h1:nth-child(1) {
+  color: rgb(0, 132, 255);
+}
+
+.mission-details__details div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mission-details__details div span:first-child {
+  color: gray;
+  font-weight: bold;
+}
+
+.mission-details__details div span:nth-child(2) {
+  color: rgb(9, 255, 0);
+  font-weight: bold;
+}
+
+.mission-details__details div span:nth-child(3) {
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+}
+
+.mission-details__rocket h1:nth-child(1) {
+  color: rgb(0, 132, 255);
+}
+
+.mission-details__rocket div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mission-details__rocket div span:first-child {
+  color: gray;
+  font-weight: bold;
+}
+
+.mission-details__rocket div span:nth-child(2) {
+  color: rgb(9, 255, 0);
+  font-weight: bold;
+}
+
+.mission-details__images h1:nth-child(1) {
+  color: rgb(0, 132, 255);
+}
+
+.mission-details__images div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mission-details__images div span:first-child,
+.mission-details__images div span:first-child a {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mission-details__images div span:nth-child(2),
+.mission-details__images div span:nth-child(2) a {
+  color: rgb(9, 255, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mission-details__images div span:nth-child(3),
+.mission-details__images div span:nth-child(3) a {
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mission-details__images div div {
+  margin-top: 30px;
+}
+
+.mission-details__images div div img {
+  width: 65%;
+  /* border: 10px solid rgb(164, 229, 255); */
+  margin: 5px 0px;
+}
